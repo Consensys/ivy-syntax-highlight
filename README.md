@@ -8,6 +8,8 @@ Syntax definition is probably not complete.
 
 ## Release Notes
 
+### 0.1.1
+Fix comment toggling.
 ### 0.1.0
 Doc fixes.
 ### 0.0.1
