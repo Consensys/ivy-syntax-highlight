@@ -1,0 +1,49 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "IVy",
+	"patterns": [
+		{
+			"include": "#comments"
+		},		
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.ivy",
+				"match": "\\b(if|else)\\b"
+			},
+			{
+				"name": "keyword.operator.ivy",
+				"match": "\\b(:=)\\b"
+			},			
+			{
+				"name": "keyword.other.ivy",
+				"match": "\\b(axiom|relation|type|individual|action|export|invariant|after|before|module|object|call|execute|implement|definition|function|ensure|require|assume|interpret|import|isolate|specification|instantiate)\\b"
+			}
+		]
+		},
+		"strings": {
+			"name": "string.quoted.double.ivy",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.ivy",
+					"match": "\\\\."
+				}
+			]
+		},
+		"comments": {
+			"name": "comment.line.number-sign",
+			"begin": "#",
+			"end": "$"
+		}
+	},
+	"scopeName": "source.ivy"
+}

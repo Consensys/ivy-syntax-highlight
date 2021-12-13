@@ -1,0 +1,25 @@
+{
+    "name": "ivy-syntax-highlight",
+    "displayName": "IVy-Syntax-Highlight",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "ivy",
+            "aliases": ["IVy", "ivy"],
+            "extensions": [".ivy"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "ivy",
+            "scopeName": "source.ivy",
+            "path": "./syntaxes/ivy.tmLanguage.json"
+        }]
+    }
+}
