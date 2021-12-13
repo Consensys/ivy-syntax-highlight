@@ -1,8 +1,8 @@
 {
     "name": "ivy-syntax-highlight",
-    "displayName": "IVy-Syntax-Highlight",
+    "displayName": "Ivy-Syntax-Highlight",
     "description": "Syntax highlight support for Ivy",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "engines": {
         "vscode": "^1.0.0"
     },
@@ -24,7 +24,7 @@
     "contributes": {
         "languages": [{
             "id": "ivy",
-            "aliases": ["IVy", "ivy"],
+            "aliases": ["Ivy", "ivy"],
             "extensions": [".ivy"],
             "configuration": "./language-configuration.json"
         }],
