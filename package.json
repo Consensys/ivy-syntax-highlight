@@ -10,6 +10,7 @@
 		"name": "Roberto Saltini",
 		"email": "roberto.saltini@consensys.net"
 	},
+    "publisher": "roberto-saltini",
 	"license": "Apache 2.0",
 	"homepage": "https://github.com/ConsenSys/ivy-syntax-highlight",
 	"bugs": "https://github.com/ConsenSys/ivy-syntax-highlight",
