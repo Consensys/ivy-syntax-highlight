@@ -24,7 +24,7 @@
 			},			
 			{
 				"name": "keyword.other.ivy",
-				"match": "\\b(axiom|relation|type|individual|action|export|invariant|after|before|module|object|call|execute|implement|definition|function|ensure|require|assume|interpret|import|isolate|specification|instance|instantiate|decreases|this|some|parameter|with)\\b"
+				"match": "\\b(axiom|relation|type|individual|action|export|invariant|after|before|module|object|call|execute|implement|definition|function|ensure|require|assume|interpret|import|isolate|specification|instance|instantiate|decreases|this|some|parameter|with|private)\\b"
 			}
 		]
 		},
