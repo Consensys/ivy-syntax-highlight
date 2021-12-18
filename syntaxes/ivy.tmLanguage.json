@@ -16,7 +16,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.ivy",
-				"match": "\\b(if|else)\\b"
+				"match": "\\b(if|else|while)\\b"
 			},
 			{
 				"name": "keyword.operator.ivy",
@@ -24,7 +24,7 @@
 			},			
 			{
 				"name": "keyword.other.ivy",
-				"match": "\\b(axiom|relation|type|individual|action|export|invariant|after|before|module|object|call|execute|implement|definition|function|ensure|require|assume|interpret|import|isolate|specification|instantiate)\\b"
+				"match": "\\b(axiom|relation|type|individual|action|export|invariant|after|before|module|object|call|execute|implement|definition|function|ensure|require|assume|interpret|import|isolate|specification|instance|instantiate|decreases|this|some|parameter|with)\\b"
 			}
 		]
 		},
