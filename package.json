@@ -2,7 +2,7 @@
     "name": "ivy-syntax-highlight",
     "displayName": "Ivy-Syntax-Highlight",
     "description": "Syntax highlight support for Ivy",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "engines": {
         "vscode": "^1.0.0"
     },

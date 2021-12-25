@@ -7,6 +7,8 @@ Bare minimum syntax highlight definitions (most likely incomplete) for the [Ivy 
 Syntax definition is probably not complete.
 
 ## Release Notes
+### 0.1.4
+Add missing keywords.
 ### 0.1.3
 Add missing keywords.
 ### 0.1.2
