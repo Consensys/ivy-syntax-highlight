@@ -10,23 +10,25 @@
 		},
 		{
 			"include": "#strings"
+		},
+		{
+			"include": "#cpp"
 		}
 	],
 	"repository": {
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.ivy",
-				"match": "\\b(if|else|while)\\b"
+				"match": "\\b(if|else|while|for)\\b"
 			},
 			{
 				"name": "keyword.operator.ivy",
-				"match": "\\b(:=)\\b"
+				"match": "\\b(:=|->|<->|~|&|\\||!|<|<=|>|>=|==|!=)\\b"
 			},			
 			{
 				"name": "keyword.other.ivy",
-				"match": "\\b(axiom|relation|type|individual|action|export|invariant|after|before|module|object|call|execute|implement|implementation|definition|function|ensure|require|assume|interpret|import|isolate|specification|instance|instantiate|decreases|this|some|parameter|with|private|property|returns|extract|include|struct|old|alias|destructor|local|proof|apply|theorem|tactic|showgoals|exists|forall|unfold|explicit|forget|around)\\b"
-			}
-		]
+				"match": "\\b(axiom|relation|type|individual|action|export|invariant|after|before|module|object|call|execute|implement|implementation|definition|function|ensure|require|assume|interpret|import|isolate|specification|instance|instantiate|decreases|this|some|parameter|with|private|property|returns|extract|include|struct|old|alias|destructor|local|proof|apply|theorem|tactic|showgoals|exists|forall|unfold|explicit|forget|around|conjecture|schema|derived|concept|init|method|field|state|assert|set|null|from|update|params|in|match|ensures|requires|modifies|true|false|fresh|class|let|entry|macro|forall|exists|returns|mixin|execute|before|after|isolate|with|export|delegate|import|using|include|progress|rely|mixord|extract|process|destructor|some|maximizing|minimizing|private|implement|property|while|invariant|struct|definition|ghost|alias|trusted|this|var|attribute|variant|of|scenario|proof|named|temporal|globally|eventually|decreases|specification|implementation|global|common|ensure|require|around|parameter|apply|theorem|showgoals|defergoal|spoil|explicit|thunk|isa|autoinstance|constructor|finite|tactic|unfold|forget|debug|for|subclass|whenfirst|whenlast|whenprev|whennext|unprovable|trigger|of|variant)\\b"
+			}]
 		},
 		"strings": {
 			"name": "string.quoted.double.ivy",
@@ -43,6 +45,16 @@
 			"name": "comment.line.number-sign",
 			"begin": "#",
 			"end": "$"
+		},
+		"cpp": {
+			"name": "source.cpp.embedded.ivy",
+			"begin": "<<<",
+			"end": ">>>",
+			"patterns": [
+				{
+					"include": "source.cpp"
+				}
+			]
 		}
 	},
 	"scopeName": "source.ivy"
