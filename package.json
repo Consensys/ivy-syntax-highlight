@@ -1,6 +1,6 @@
 {
-    "name": "ivy-syntax-highlight",
-    "displayName": "Ivy-Syntax-Highlight",
+    "name": "ivy-syntax-highlight-2",
+    "displayName": "Ivy-Syntax-Highlight 2",
     "description": "Syntax highlight support for Ivy",
     "version": "0.1.5",
     "engines": {
