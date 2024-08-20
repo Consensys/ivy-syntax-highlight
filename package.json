@@ -1,14 +1,14 @@
 {
-    "name": "ivy-syntax-highlight",
-    "displayName": "Ivy-Syntax-Highlight",
+    "name": "ivy-syntax-highlight-2",
+    "displayName": "Ivy-Syntax-Highlight 2",
     "description": "Syntax highlight support for Ivy",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "engines": {
         "vscode": "^1.0.0"
     },
     "author": {
-		"name": "Roberto Saltini",
-		"email": "roberto.saltini@consensys.net"
+		"name": "Roberto Saltini, Christophe Crochet",
+		"email": "roberto.saltini@consensys.net, christophe.crochet@uclouvain.be"
 	},
     "publisher": "roberto-saltini",
 	"license": "Apache 2.0",
